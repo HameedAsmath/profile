@@ -1,0 +1,476 @@
+{
+  "profiles": [
+    {
+      "id": "1",
+      "name": "Sarah Johnson",
+      "image": "https://randomuser.me/api/portraits/women/1.jpg",
+      "yearsOfExperience": 5,
+      "tagline": "Frontend Developer",
+      "description": "Passionate frontend developer with 5 years of experience in creating responsive and user-friendly web applications. Specialized in React ecosystem and modern JavaScript frameworks. Strong focus on code quality and performance optimization.",
+      "tags": [
+        "React",
+        "JavaScript",
+        "TypeScript",
+        "HTML5",
+        "CSS3",
+        "Redux"
+      ],
+      "email": "sarah.johnson@email.com",
+      "age": 28
+    },
+    {
+      "id": "2",
+      "name": "Michael Chen",
+      "image": "https://randomuser.me/api/portraits/men/2.jpg",
+      "yearsOfExperience": 8,
+      "tagline": "Full Stack Developer",
+      "description": "Versatile full stack developer with 8 years of experience in both frontend and backend technologies. Proven track record of delivering scalable end-to-end solutions. Expert in cloud architecture and microservices development.",
+      "tags": [
+        "Python",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Docker",
+        "AWS"
+      ],
+      "email": "michael.chen@email.com",
+      "age": 32
+    },
+    {
+      "id": "4",
+      "name": "David Kim",
+      "image": "https://randomuser.me/api/portraits/men/4.jpg",
+      "yearsOfExperience": 7,
+      "tagline": "Backend Developer",
+      "description": "Experienced backend developer with 7 years of focus on scalable microservices architecture. Expert in cloud infrastructure and distributed systems. Strong background in Java ecosystem and database optimization.",
+      "tags": [
+        "Java",
+        "Spring Boot",
+        "Kubernetes",
+        "PostgreSQL",
+        "Redis",
+        "Azure"
+      ],
+      "email": "david.kim@email.com",
+      "age": 31
+    },
+    {
+      "id": "5",
+      "name": "Lisa Thompson",
+      "image": "https://randomuser.me/api/portraits/women/5.jpg",
+      "yearsOfExperience": 4,
+      "tagline": "ML Engineer",
+      "description": "Machine learning engineer focused on developing and deploying AI models. Experience in computer vision and natural language processing.",
+      "tags": [
+        "Python",
+        "PyTorch",
+        "OpenCV",
+        "NLTK",
+        "Docker",
+        "MLOps",
+        "FastAPI"
+      ],
+      "email": "lisa.thompson@email.com",
+      "age": 27
+    },
+    {
+      "id": "7",
+      "name": "Anna Kowalski",
+      "image": "https://randomuser.me/api/portraits/women/7.jpg",
+      "yearsOfExperience": 3,
+      "tagline": "UI/UX Designer",
+      "description": "Creative UI/UX designer with a strong focus on user-centered design principles and modern design systems.",
+      "tags": [
+        "Figma",
+        "Adobe XD",
+        "Sketch",
+        "InVision",
+        "Prototyping",
+        "User Research",
+        "Design Systems"
+      ],
+      "email": "anna.kowalski@email.com",
+      "age": 26
+    },
+    {
+      "id": "8",
+      "name": "Robert Martinez",
+      "image": "https://randomuser.me/api/portraits/men/8.jpg",
+      "yearsOfExperience": 10,
+      "tagline": "DevOps Engineer",
+      "description": "Seasoned DevOps engineer with expertise in automation, CI/CD pipelines, and cloud infrastructure management.",
+      "tags": [
+        "AWS",
+        "Jenkins",
+        "Terraform",
+        "Ansible",
+        "Docker",
+        "Kubernetes",
+        "Linux"
+      ],
+      "email": "robert.martinez@email.com",
+      "age": 35
+    },
+    {
+      "id": "9",
+      "name": "Sophie Anderson",
+      "image": "https://randomuser.me/api/portraits/women/9.jpg",
+      "yearsOfExperience": 6,
+      "tagline": "Mobile Developer",
+      "description": "Mobile developer specialized in cross-platform development using React Native and Flutter.",
+      "tags": [
+        "React Native",
+        "Flutter",
+        "iOS",
+        "Android",
+        "Firebase",
+        "Redux",
+        "Mobile Architecture"
+      ],
+      "email": "sophie.anderson@email.com",
+      "age": 29
+    },
+    {
+      "id": "10",
+      "name": "Alex Patel",
+      "image": "https://randomuser.me/api/portraits/men/10.jpg",
+      "yearsOfExperience": 7,
+      "tagline": "Cloud Architect",
+      "description": "Experienced cloud architect with expertise in designing and implementing scalable cloud solutions.",
+      "tags": [
+        "AWS",
+        "Azure",
+        "GCP",
+        "Terraform",
+        "Microservices",
+        "Serverless",
+        "Cloud Security"
+      ],
+      "email": "alex.patel@email.com",
+      "age": 33
+    },
+    {
+      "id": "11",
+      "name": "Maria Garcia",
+      "image": "https://randomuser.me/api/portraits/women/11.jpg",
+      "yearsOfExperience": 5,
+      "tagline": "Data Engineer",
+      "description": "Data engineer focused on building robust data pipelines and ETL processes for big data solutions.",
+      "tags": [
+        "Apache Spark",
+        "Hadoop",
+        "Python",
+        "SQL",
+        "Airflow",
+        "AWS EMR",
+        "Databricks"
+      ],
+      "email": "maria.garcia@email.com",
+      "age": 29
+    },
+    {
+      "id": "12",
+      "name": "Thomas Weber",
+      "image": "https://randomuser.me/api/portraits/men/12.jpg",
+      "yearsOfExperience": 8,
+      "tagline": "Blockchain Developer",
+      "description": "Blockchain developer with experience in smart contract development and decentralized applications.",
+      "tags": [
+        "Solidity",
+        "Ethereum",
+        "Web3.js",
+        "Smart Contracts",
+        "DeFi",
+        "Truffle",
+        "Hardhat"
+      ],
+      "email": "thomas.weber@email.com",
+      "age": 31
+    },
+    {
+      "id": "13",
+      "name": "Nina Ivanova",
+      "image": "https://randomuser.me/api/portraits/women/13.jpg",
+      "yearsOfExperience": 4,
+      "tagline": "Frontend Developer",
+      "description": "Frontend developer specializing in modern JavaScript frameworks and responsive design.",
+      "tags": [
+        "Vue.js",
+        "Nuxt.js",
+        "JavaScript",
+        "SASS",
+        "Webpack",
+        "Jest",
+        "GraphQL"
+      ],
+      "email": "nina.ivanova@email.com",
+      "age": 27
+    },
+    {
+      "id": "14",
+      "name": "Carlos Silva",
+      "image": "https://randomuser.me/api/portraits/men/14.jpg",
+      "yearsOfExperience": 6,
+      "tagline": "Backend Developer",
+      "description": "Backend developer with expertise in building scalable APIs and microservices.",
+      "tags": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Redis",
+        "Docker",
+        "REST APIs",
+        "GraphQL"
+      ],
+      "email": "carlos.silva@email.com",
+      "age": 30
+    },
+    {
+      "id": "15",
+      "name": "Emma Brown",
+      "image": "https://randomuser.me/api/portraits/women/15.jpg",
+      "yearsOfExperience": 7,
+      "tagline": "ML Engineer",
+      "description": "Machine learning engineer specialized in deep learning and computer vision applications.",
+      "tags": [
+        "TensorFlow",
+        "Keras",
+        "Computer Vision",
+        "Deep Learning",
+        "Python",
+        "OpenCV",
+        "AWS SageMaker"
+      ],
+      "email": "emma.brown@email.com",
+      "age": 32
+    },
+    {
+      "id": "16",
+      "name": "Lucas Schmidt",
+      "image": "https://randomuser.me/api/portraits/men/16.jpg",
+      "yearsOfExperience": 5,
+      "tagline": "Full Stack Developer",
+      "description": "Full stack developer with strong expertise in JavaScript ecosystem and cloud technologies.",
+      "tags": [
+        "React",
+        "Node.js",
+        "TypeScript",
+        "AWS",
+        "MongoDB",
+        "Docker",
+        "CI/CD"
+      ],
+      "email": "lucas.schmidt@email.com",
+      "age": 29
+    },
+    {
+      "id": "17",
+      "name": "Olivia Wilson",
+      "image": "https://randomuser.me/api/portraits/women/17.jpg",
+      "yearsOfExperience": 3,
+      "tagline": "UI/UX Designer",
+      "description": "UI/UX designer passionate about creating intuitive and accessible user interfaces.",
+      "tags": [
+        "UI Design",
+        "UX Research",
+        "Figma",
+        "Adobe Creative Suite",
+        "Prototyping",
+        "Design Systems",
+        "Accessibility"
+      ],
+      "email": "olivia.wilson@email.com",
+      "age": 26
+    },
+    {
+      "id": "18",
+      "name": "Daniel Lee",
+      "image": "https://randomuser.me/api/portraits/men/18.jpg",
+      "yearsOfExperience": 9,
+      "tagline": "Security Engineer",
+      "description": "Security engineer with expertise in application security and threat modeling.",
+      "tags": [
+        "Application Security",
+        "Penetration Testing",
+        "OWASP",
+        "Security Architecture",
+        "Python",
+        "AWS Security",
+        "OAuth"
+      ],
+      "email": "daniel.lee@email.com",
+      "age": 34
+    },
+    {
+      "id": "19",
+      "name": "Isabella Santos",
+      "image": "https://randomuser.me/api/portraits/women/19.jpg",
+      "yearsOfExperience": 6,
+      "tagline": "Data Scientist",
+      "description": "Data scientist focused on NLP and recommendation systems.",
+      "tags": [
+        "Python",
+        "NLP",
+        "Machine Learning",
+        "Deep Learning",
+        "SQL",
+        "Spark",
+        "AWS"
+      ],
+      "email": "isabella.santos@email.com",
+      "age": 31
+    },
+    {
+      "id": "20",
+      "name": "William Taylor",
+      "image": "https://randomuser.me/api/portraits/men/20.jpg",
+      "yearsOfExperience": 8,
+      "tagline": "DevOps Engineer",
+      "description": "DevOps engineer specializing in container orchestration and infrastructure automation.",
+      "tags": [
+        "Kubernetes",
+        "Docker",
+        "Terraform",
+        "AWS",
+        "CI/CD",
+        "Monitoring",
+        "Site Reliability"
+      ],
+      "email": "william.taylor@email.com",
+      "age": 33
+    },
+    {
+      "id": "21",
+      "name": "Sofia Martinez",
+      "image": "https://randomuser.me/api/portraits/women/21.jpg",
+      "yearsOfExperience": 4,
+      "tagline": "Mobile Developer",
+      "description": "Mobile developer with expertise in native iOS development and Swift.",
+      "tags": [
+        "iOS",
+        "Swift",
+        "SwiftUI",
+        "Xcode",
+        "Core Data",
+        "Firebase",
+        "Mobile Architecture"
+      ],
+      "email": "sofia.martinez@email.com",
+      "age": 28
+    },
+    {
+      "id": "22",
+      "name": "Benjamin Wong",
+      "image": "https://randomuser.me/api/portraits/men/22.jpg",
+      "yearsOfExperience": 7,
+      "tagline": "Backend Developer",
+      "description": "Backend developer specialized in Go and distributed systems.",
+      "tags": [
+        "Go",
+        "Microservices",
+        "gRPC",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "Kubernetes"
+      ],
+      "email": "benjamin.wong@email.com",
+      "age": 32
+    },
+    {
+      "id": "23",
+      "name": "Ava Johnson",
+      "image": "https://randomuser.me/api/portraits/women/23.jpg",
+      "yearsOfExperience": 5,
+      "tagline": "Frontend Developer",
+      "description": "Frontend developer focused on building accessible and performant web applications.",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Next.js",
+        "Web Performance",
+        "Accessibility",
+        "Testing",
+        "State Management"
+      ],
+      "email": "ava.johnson@email.com",
+      "age": 29
+    },
+    {
+      "id": "24",
+      "name": "Ethan Miller",
+      "image": "https://randomuser.me/api/portraits/men/24.jpg",
+      "yearsOfExperience": 6,
+      "tagline": "Cloud Engineer",
+      "description": "Cloud engineer with expertise in multi-cloud architectures and serverless computing.",
+      "tags": [
+        "AWS",
+        "Azure",
+        "Serverless",
+        "IaC",
+        "Python",
+        "Node.js",
+        "Cloud Security"
+      ],
+      "email": "ethan.miller@email.com",
+      "age": 31
+    },
+    {
+      "id": "25",
+      "name": "Mia Anderson",
+      "image": "https://randomuser.me/api/portraits/women/25.jpg",
+      "yearsOfExperience": 8,
+      "tagline": "Data Engineer",
+      "description": "Data engineer specialized in real-time data processing and analytics pipelines.",
+      "tags": [
+        "Apache Kafka",
+        "Spark",
+        "Python",
+        "AWS",
+        "Airflow",
+        "SQL",
+        "Data Modeling"
+      ],
+      "email": "mia.anderson@email.com",
+      "age": 33
+    },
+    {
+      "id": "26",
+      "name": "Jack Wilson",
+      "image": "https://randomuser.me/api/portraits/men/26.jpg",
+      "yearsOfExperience": 5,
+      "tagline": "Full Stack Developer",
+      "description": "Full stack developer with focus on .NET ecosystem and Azure cloud services.",
+      "tags": [
+        ".NET Core",
+        "C#",
+        "Angular",
+        "Azure",
+        "SQL Server",
+        "Entity Framework",
+        "DevOps"
+      ],
+      "email": "jack.wilson@email.com",
+      "age": 30
+    },
+    {
+      "id": "27",
+      "name": "Charlotte Brown",
+      "image": "https://randomuser.me/api/portraits/women/27.jpg",
+      "yearsOfExperience": 4,
+      "tagline": "ML Engineer",
+      "description": "ML engineer specialized in reinforcement learning and robotics applications.",
+      "tags": [
+        "Python",
+        "PyTorch",
+        "Reinforcement Learning",
+        "ROS",
+        "Computer Vision",
+        "C++",
+        "Linux"
+      ],
+      "email": "charlotte.brown@email.com",
+      "age": 28
+    }
+  ]
+}
