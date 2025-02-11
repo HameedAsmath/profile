@@ -84,7 +84,7 @@ The mock API will be available at `http://localhost:3000` 🔌
 
 Here's a sneak peek of the application's main features:
 
-<div align="center">
+<!-- <div align="center"> -->
 
 ### Home Page
 
@@ -98,4 +98,4 @@ Here's a sneak peek of the application's main features:
 
 ![Light Theme](./src/assets/light1.png)
 
-</div>
+<!-- </div> -->
