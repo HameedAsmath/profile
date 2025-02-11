@@ -168,6 +168,7 @@ const CreateProfile = ({
               <label className="block text-sm font-medium mb-1">Name</label>
               <input
                 {...register("name")}
+                data-testid="name-input"
                 className="w-full p-2 rounded-lg"
                 style={{ backgroundColor: "var(--bg-primary)" }}
               />
@@ -184,6 +185,7 @@ const CreateProfile = ({
               </label>
               <textarea
                 {...register("description")}
+                data-testid="description-input"
                 className="w-full p-2 rounded-lg"
                 style={{ backgroundColor: "var(--bg-primary)" }}
                 rows={4}
@@ -265,6 +267,7 @@ const CreateProfile = ({
               <label className="block text-sm font-medium mb-1">Tagline</label>
               <input
                 {...register("tagline")}
+                data-testid="tagline-input"
                 className="w-full p-2 rounded-lg"
                 style={{ backgroundColor: "var(--bg-primary)" }}
                 placeholder="e.g. Frontend Developer"
@@ -280,6 +283,7 @@ const CreateProfile = ({
               <label className="block text-sm font-medium mb-1">Email</label>
               <input
                 {...register("email")}
+                data-testid="email-input"
                 type="email"
                 className="w-full p-2 rounded-lg"
                 style={{ backgroundColor: "var(--bg-primary)" }}
@@ -306,6 +310,7 @@ const CreateProfile = ({
               </button>
               <button
                 type="submit"
+                data-testid="submit-button"
                 className="p-2 rounded-lg hover:opacity-80 transition-opacity duration-200"
                 style={{
                   backgroundColor: "var(--bg-primary)",
