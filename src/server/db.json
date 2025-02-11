@@ -7,14 +7,7 @@
       "yearsOfExperience": 5,
       "tagline": "Frontend Developer",
       "description": "Passionate frontend developer with 5 years of experience in creating responsive and user-friendly web applications. Specialized in React ecosystem and modern JavaScript frameworks. Strong focus on code quality and performance optimization.",
-      "tags": [
-        "React",
-        "JavaScript",
-        "TypeScript",
-        "HTML5",
-        "CSS3",
-        "Redux"
-      ],
+      "tags": ["React", "JavaScript", "TypeScript", "HTML5", "CSS3", "Redux"],
       "email": "sarah.johnson@email.com",
       "age": 28
     },
@@ -25,14 +18,7 @@
       "yearsOfExperience": 8,
       "tagline": "Full Stack Developer",
       "description": "Versatile full stack developer with 8 years of experience in both frontend and backend technologies. Proven track record of delivering scalable end-to-end solutions. Expert in cloud architecture and microservices development.",
-      "tags": [
-        "Python",
-        "React",
-        "Node.js",
-        "MongoDB",
-        "Docker",
-        "AWS"
-      ],
+      "tags": ["Python", "React", "Node.js", "MongoDB", "Docker", "AWS"],
       "email": "michael.chen@email.com",
       "age": 32
     },
@@ -452,99 +438,6 @@
       ],
       "email": "jack.wilson@email.com",
       "age": 30
-    },
-    {
-      "id": "ad34209d-ec3b-4a13-abba-ff52a4d23f98",
-      "name": "Rachel Francis",
-      "description": "Officiis aspernatur ",
-      "yearsOfExperience": 1,
-      "tags": [
-        "typescript"
-      ],
-      "tagline": "Laborum Ea voluptat",
-      "email": "pijelimuga@mailinator.com",
-      "age": 36,
-      "image": "https://randomuser.me/api/portraits/women/5.jpg"
-    },
-    {
-      "id": "a3a65cad-dbea-4207-9fb4-2dfc6f3ea7fb",
-      "name": "test1",
-      "description": "fgvbhnjkm,liuytrfdcvbnmkhgv",
-      "yearsOfExperience": 2,
-      "tags": [
-        "typescript"
-      ],
-      "tagline": "Frontend Developer",
-      "email": "hameedasmath2001@gmail.com",
-      "age": 21,
-      "image": "https://randomuser.me/api/portraits/men/91.jpg"
-    },
-    {
-      "id": "7663fb0d-260f-4c59-8840-67545d3ed6f5",
-      "name": "test2",
-      "description": "test2 description",
-      "yearsOfExperience": 2,
-      "tags": [
-        "typescript"
-      ],
-      "tagline": "Laborum Ea voluptat",
-      "email": "hameedasmath2001@gmail.com",
-      "age": 42,
-      "image": "https://randomuser.me/api/portraits/men/33.jpg"
-    },
-    {
-      "id": "9a09601f-096e-4bea-a3f7-48f533a99ccf",
-      "name": "Hameed Asmath  test3",
-      "description": "dfghjngbfdsasdefrgthyjuyhgtfdsa",
-      "yearsOfExperience": 3,
-      "tags": [
-        "python",
-        "javascript"
-      ],
-      "tagline": "Frontend Developer",
-      "email": "hameedasmath2001@gmail.com",
-      "age": 44,
-      "image": "https://randomuser.me/api/portraits/women/7.jpg"
-    },
-    {
-      "id": "06e9e5c1-1289-404b-a119-1121a9ce4bee",
-      "name": "Rachel Francis",
-      "description": "awsedrfghjytresdfghj",
-      "yearsOfExperience": 5,
-      "tags": [
-        "python"
-      ],
-      "tagline": "Laborum Ea voluptat",
-      "email": "hameedasmath2001@gmail.com",
-      "age": 29,
-      "image": "https://randomuser.me/api/portraits/men/9.jpg"
-    },
-    {
-      "id": "97ff6d97-74c5-4c1c-8465-6babdfdcbfed",
-      "name": "test4",
-      "description": "yttf yfghuiuytfgcv yguhijk",
-      "yearsOfExperience": 4,
-      "tags": [
-        "typescript",
-        "javascript"
-      ],
-      "tagline": "Frontend Developer",
-      "email": "hameedasmath2001@gmail.com",
-      "age": 28,
-      "image": "https://randomuser.me/api/portraits/women/6.jpg"
-    },
-    {
-      "id": "fd0ccefd-e8b0-4264-a693-47bb7b6a0157",
-      "name": "test 4",
-      "description": "dfghjklhgfcvbhnjkml;iuhgyfghj",
-      "yearsOfExperience": 2,
-      "tags": [
-        "typescript"
-      ],
-      "tagline": "Laborum Ea voluptat",
-      "email": "fcvgbhnjmk@gmail.com",
-      "age": 41,
-      "image": "https://randomuser.me/api/portraits/women/9.jpg"
     }
   ]
 }

@@ -79,3 +79,23 @@ The mock API will be available at `http://localhost:3000` 🔌
 | `yarn test`       | Runs the test suite                    |
 
 > **Note**: Make sure both the frontend server and JSON server are running simultaneously for the application to work properly.
+
+## 📸 Application Preview
+
+Here's a sneak peek of the application's main features:
+
+<div align="center">
+
+### Home Page
+
+![Home Page](./public/dark1.png)
+
+### Create Profile
+
+![Create Profile](./public/dark2.png)
+
+### Profile List
+
+![Light Theme](./public/light1.png)
+
+</div>
