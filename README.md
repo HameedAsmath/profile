@@ -1,50 +1,81 @@
-# React + TypeScript + Vite
+# Job Portal Application 🎯
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern job portal application built with cutting-edge technologies for optimal performance and developer experience.
 
-Currently, two official plugins are available:
+## 🚀 Technologies Used & Why
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Frontend Core
 
-## Expanding the ESLint configuration
+- **React** ⚛️
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+  - Component-based architecture for better code organization
+  - Rich ecosystem and community support
+  - Virtual DOM for efficient UI updates
+  - Declarative UI development
 
-- Configure the top-level `parserOptions` property like this:
+- **Vite** ⚡
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+  - Lightning-fast HMR (Hot Module Replacement)
+  - Optimized build performance compared to CRA
+  - Modern ESM-based dev server
+  - Better developer experience with instant server start
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **TypeScript** 📝
+  - Static type checking to catch errors early
+  - Better IDE support and code completion
+  - Enhanced code maintainability
+  - Improved team collaboration with clear interfaces
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### Styling & UI
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **Tailwind CSS** 🎨
+  - Utility-first approach for rapid UI development
+  - Highly customizable design system
+  - Zero runtime CSS-in-JS overhead
+  - Responsive design made easy
+
+### State Management & Data Fetching
+
+- **React Query** 🔄
+  - Powerful data synchronization
+  - Automatic background refetching
+  - Optimistic updates for better UX
+  - Cache management out of the box
+
+### Form Management
+
+- **React Hook Form** 📋
+  - Performance-focused form handling
+  - Minimal re-renders
+  - Easy form validation
+  - Seamless integration with TypeScript
+
+### Validation
+
+- **Zod** ✅
+  - TypeScript-first schema validation
+  - Runtime type checking
+  - Excellent integration with React Hook Form
+  - Type inference for better DX
+
+### Backend Mock
+
+- **JSON Server** 🗄️
+  - Quick API prototyping
+  - Zero configuration needed
+  - RESTful API conventions
+  - Perfect for development and testing
+
+The mock API will be available at `http://localhost:3000` 🔌
+
+### Available Scripts
+
+| Command           | Description                            |
+| ----------------- | -------------------------------------- |
+| `yarn add`        | Installs project dependencies          |
+| `yarn start`      | Starts the development server          |
+| `yarn run server` | Starts the JSON server for API mocking |
+| `yarn build`      | Creates a production build             |
+| `yarn test`       | Runs the test suite                    |
+
+> **Note**: Make sure both the frontend server and JSON server are running simultaneously for the application to work properly.
