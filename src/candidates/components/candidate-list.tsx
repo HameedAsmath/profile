@@ -19,15 +19,12 @@ export const CandidateList = () => {
   const deleteProfileMutation = useMutation({
     mutationFn: CandidatesService.deleteProfile,
     onMutate: async (deletedId) => {
-      // Cancel any outgoing refetches
       await queryClient.cancelQueries({ queryKey: ["profiles"] });
 
-      // Snapshot the previous value
       const previousProfiles = queryClient.getQueryData<Profile[]>([
         "profiles",
       ]);
 
-      // Optimistically update to the new value
       if (previousProfiles) {
         queryClient.setQueryData<Profile[]>(
           ["profiles"],
@@ -35,11 +32,9 @@ export const CandidateList = () => {
         );
       }
 
-      // Return a context object with the snapshotted value
       return { previousProfiles };
     },
     onError: (err, newTodo, context) => {
-      // If the mutation fails, use the context returned from onMutate to roll back
       if (context?.previousProfiles) {
         queryClient.setQueryData<Profile[]>(
           ["profiles"],
@@ -48,7 +43,6 @@ export const CandidateList = () => {
       }
     },
     onSettled: () => {
-      // Always refetch after error or success to make sure our optimistic update is correct
       queryClient.invalidateQueries({ queryKey: ["profiles"] });
     },
   });

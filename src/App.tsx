@@ -1,6 +1,8 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { useState, useEffect } from "react";
 import { CandidateList } from "./candidates/components/candidate-list";
+import CreateProfile from "./candidates/components/create-profile";
+import { ToastContainer } from "react-toastify";
 
 const queryClient = new QueryClient();
 
@@ -15,6 +17,7 @@ function App() {
     }
     return false;
   });
+  const [isCreateProfileOpen, setIsCreateProfileOpen] = useState(false);
 
   useEffect(() => {
     const root = document.documentElement;
@@ -41,23 +44,41 @@ function App() {
             >
               Candidate Portal
             </h1>
-            <button
-              onClick={() => setDarkMode(!darkMode)}
-              className="p-2 rounded-lg hover:opacity-80 transition-opacity duration-200"
-              style={{
-                backgroundColor: "var(--bg-primary)",
-                color: "var(--text-primary)",
-              }}
-              aria-label={
-                darkMode ? "Switch to light mode" : "Switch to dark mode"
-              }
-            >
-              {darkMode ? "🌞 Light" : "🌙 Dark"}
-            </button>
+            <div className="flex gap-4">
+              <button
+                onClick={() => setIsCreateProfileOpen(true)}
+                className="p-2 rounded-lg hover:opacity-80 transition-opacity duration-200"
+                style={{
+                  backgroundColor: "var(--bg-primary)",
+                  color: "var(--text-primary)",
+                }}
+              >
+                ➕ Create Profile
+              </button>
+              <button
+                onClick={() => setDarkMode(!darkMode)}
+                className="p-2 rounded-lg hover:opacity-80 transition-opacity duration-200"
+                style={{
+                  backgroundColor: "var(--bg-primary)",
+                  color: "var(--text-primary)",
+                }}
+                aria-label={
+                  darkMode ? "Switch to light mode" : "Switch to dark mode"
+                }
+              >
+                {darkMode ? "🌞 Light" : "🌙 Dark"}
+              </button>
+            </div>
           </div>
         </nav>
         <CandidateList />
+
+        <CreateProfile
+          isCreateProfileOpen={isCreateProfileOpen}
+          setIsCreateProfileOpen={setIsCreateProfileOpen}
+        />
       </div>
+      <ToastContainer />
     </QueryClientProvider>
   );
 }
