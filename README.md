@@ -88,14 +88,14 @@ Here's a sneak peek of the application's main features:
 
 ### Home Page
 
-![Home Page](./public/dark1.png)
+![Home Page](./src/assets/dark1.png)
 
 ### Create Profile
 
-![Create Profile](./public/dark2.png)
+![Create Profile](./src/assets/dark2.png)
 
 ### Profile List
 
-![Light Theme](./public/light1.png)
+![Light Theme](./src/assets/light1.png)
 
 </div>
