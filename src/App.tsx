@@ -1,6 +1,6 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { useState, useEffect } from "react";
-import { CandidateList } from "./components/candidate-list";
+import { CandidateList } from "./candidates/components/candidate-list";
 
 const queryClient = new QueryClient();
 

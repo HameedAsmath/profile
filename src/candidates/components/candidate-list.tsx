@@ -1,7 +1,8 @@
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { ProfileCard } from "./profile-card";
-import { Profile } from "../types";
+import { Profile } from "../types/types";
 import { AnimatePresence } from "framer-motion";
+import { CandidatesService } from "../services/candidates-services";
 
 export const CandidateList = () => {
   const queryClient = useQueryClient();
@@ -12,24 +13,11 @@ export const CandidateList = () => {
     error,
   } = useQuery<Profile[]>({
     queryKey: ["profiles"],
-    queryFn: async () => {
-      const response = await fetch("http://localhost:3001/profiles");
-      if (!response.ok) {
-        throw new Error("Network response was not ok");
-      }
-      return response.json();
-    },
+    queryFn: CandidatesService.getProfiles,
   });
 
   const deleteProfileMutation = useMutation({
-    mutationFn: async (id: number) => {
-      const response = await fetch(`http://localhost:3001/profiles/${id}`, {
-        method: "DELETE",
-      });
-      if (!response.ok) {
-        throw new Error("Failed to delete profile");
-      }
-    },
+    mutationFn: CandidatesService.deleteProfile,
     onMutate: async (deletedId) => {
       // Cancel any outgoing refetches
       await queryClient.cancelQueries({ queryKey: ["profiles"] });

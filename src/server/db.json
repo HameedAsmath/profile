@@ -452,25 +452,6 @@
       ],
       "email": "jack.wilson@email.com",
       "age": 30
-    },
-    {
-      "id": "27",
-      "name": "Charlotte Brown",
-      "image": "https://randomuser.me/api/portraits/women/27.jpg",
-      "yearsOfExperience": 4,
-      "tagline": "ML Engineer",
-      "description": "ML engineer specialized in reinforcement learning and robotics applications.",
-      "tags": [
-        "Python",
-        "PyTorch",
-        "Reinforcement Learning",
-        "ROS",
-        "Computer Vision",
-        "C++",
-        "Linux"
-      ],
-      "email": "charlotte.brown@email.com",
-      "age": 28
     }
   ]
 }
