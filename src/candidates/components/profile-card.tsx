@@ -20,7 +20,7 @@ export const ProfileCard = ({ profile, onDelete }: ProfileCardProps) => {
     >
       <button
         onClick={() => onDelete(profile.id)}
-        className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity p-2 rounded-full hover:bg-red-100 dark:hover:bg-red-900 text-gray-400 hover:text-red-500 dark:text-gray-500 dark:hover:text-red-400"
+        className="absolute top-4 right-4 invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-all duration-200 p-2 rounded-full hover:bg-red-100 dark:hover:bg-red-900 text-gray-400 hover:text-red-500 dark:text-gray-500 dark:hover:text-red-400"
         aria-label="Delete profile"
       >
         <DeleteIcon />
